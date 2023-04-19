@@ -4,6 +4,7 @@
 @author: A.Akdogan
 """
 
+from multiprocessing import cpu_count
 import pandas as pd
 import numpy as np
 from trainer import Trainer
